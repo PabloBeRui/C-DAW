@@ -18,6 +18,7 @@ namespace FibonacciSequence
 
             // Solicito por consola un número con unas condiciones
             Console.WriteLine("Por favor , introduzca un número comprendido entre 7 y 22, ambos valores incluidos");
+            Console.WriteLine();
 
             // 1-  asigno un nuevo valor a number cuyo valor será asignado por entrada de teclado
 
@@ -26,8 +27,9 @@ namespace FibonacciSequence
             if (int.TryParse(Console.ReadLine(), out number) && (number > 6 && number < 23)) { return number; }
             else
             {
-
-                Console.WriteLine("Número incorrecto, por favor escriba un número válido");
+                Console.WriteLine();
+                Console.WriteLine("Número incorrecto, debe escribir un número válido");
+                Console.WriteLine();
 
                 return ValidatedNumber();
             }
