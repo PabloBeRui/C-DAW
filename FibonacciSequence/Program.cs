@@ -13,7 +13,7 @@ namespace FibonacciSequence
         //Creo una función que comprobará el número introducido y lo retornará
         public static int ValidatedNumber()
         {
-            // Declaro la variable number y le asigno un valor inicial
+            // Declaro la variable number 
             int number;
 
             // Solicito por consola un número con unas condiciones
@@ -26,7 +26,6 @@ namespace FibonacciSequence
             if (int.TryParse(Console.ReadLine(), out number) && (number > 6 && number < 23)) { return number; }
             else
             {
-                // Incluyo un return 0 al que nunca se accederá, pues es obligatorio devolver algo en una funcion que no sea void.
 
                 Console.WriteLine("Número incorrecto, por favor escriba un número válido");
 
@@ -38,13 +37,10 @@ namespace FibonacciSequence
 
         public static void ReturnFibonnaciSecuence()
         {
-            //Asigno a Number el valor devuelto de la funcion ValidatedNumber
+            //Asigno a number el valor devuelto de la funcion ValidatedNumber
 
             int number = ValidatedNumber();
 
-            //!!Comprobacion de NUmber
-
-            Console.WriteLine("el numero es {0}", number);
 
             // Declaro un array con la longitud del number
 
@@ -55,6 +51,7 @@ namespace FibonacciSequence
             int fiboNumber = 0;
             int fiboNumberPrev = 1;
             int temp = 0;
+
             for (int i = 0; i < number; i++)
             {
                 fiboArray[i] = fiboNumber;
@@ -70,14 +67,31 @@ namespace FibonacciSequence
                 fiboNumberPrev = temp;
             }
 
-            //!!! Pruebo que el array es correcto
+            // Creo fiboArrayReverse a partir de fiboArray
 
+            int[] fiboArrayReverse = new int[number];
+            int j = 0;
+
+            for (int i = number-1; i >= 0; i--)
+            {
+                fiboArrayReverse[j] = fiboArray[i];
+                j++;
+            };
+
+            //!  Muestro Los 2 array separados por el método String.Join
+            Console.WriteLine();
+            Console.WriteLine("A continuación se muestra la secuencia de Fibonacci con {0} numeros en orden ascendente y descendente:",number);
+            Console.WriteLine();
             Console.WriteLine(String.Join(" ", fiboArray));
+            Console.WriteLine(String.Join(" ", fiboArrayReverse));
+            Console.ReadKey();
         }
 
         private static void Main(string[] args)
         {
+
             ReturnFibonnaciSecuence();
+
         }
     }
 }

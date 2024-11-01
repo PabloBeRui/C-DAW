@@ -5,3 +5,10 @@ C:\Users\Prog1\Desktop\ILERNA\Programacion\trabajo\C-DAW\FibonacciSequence\obj\D
 C:\Users\Prog1\Desktop\ILERNA\Programacion\trabajo\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.csproj.CoreCompileInputs.cache
 C:\Users\Prog1\Desktop\ILERNA\Programacion\trabajo\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.exe
 C:\Users\Prog1\Desktop\ILERNA\Programacion\trabajo\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.pdb
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.csproj.AssemblyReference.cache
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.csproj.CoreCompileInputs.cache
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.exe
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\obj\Debug\FibonacciSequence.pdb
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\bin\Debug\FibonacciSequence.exe.config
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\bin\Debug\FibonacciSequence.exe
+C:\Users\Work\Desktop\ILERNA\PROGRAMACION\git\C-DAW\FibonacciSequence\bin\Debug\FibonacciSequence.pdb
