@@ -86,7 +86,24 @@ namespace FibonacciSequence
             Console.WriteLine();
             Console.WriteLine(String.Join(" ", fiboArray));
             Console.WriteLine(String.Join(" ", fiboArrayReverse));
-            Console.ReadKey();
+
+
+            //Pregunto  al usuario si quierere reiniciar la app o finalizarla
+            // Voy a usar ConsoleKeyInfo porque es el tipo que devuelve Console.ReadKey
+
+            Console.WriteLine();
+            Console.WriteLine("Pulse cualquier tecla para reiniciar o Escape para salir");
+            
+
+            ConsoleKeyInfo pressedKey = Console.ReadKey();
+
+            // Si pulso cualquier boton que no sea el de escape, se limpiara la consola y se volverá a ejecutar el programa, en caso contrario finalizará
+
+            if (pressedKey.Key != ConsoleKey.Escape) {
+
+                Console.Clear();
+                ReturnFibonnaciSecuence(); }
+            
         }
 
         private static void Main(string[] args)
